@@ -1,4 +1,5 @@
-export const showRepoInfo = (array, container) => {
+export const showRepoInfo = (array, container, number) => {
+    number.innerHTML += `Repositories(${array.length})`
     array.forEach(item => {
 
         const { name, visibility, description, topics, language, homepage, git_url } = item;

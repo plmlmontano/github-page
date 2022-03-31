@@ -10,6 +10,7 @@ body{
     display: inline-block;
     color:white;
     width: 30%;
+    position: absolute;
 }
 
 h5{
@@ -38,6 +39,8 @@ button{
 #derecha{
     width: 60%;
     display: inline-block;
+    position: absolute;
+    right: 15%;
     
 }
 
